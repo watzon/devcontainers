@@ -1,0 +1,13 @@
+{
+    "luckyframework": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "ghcr.io/devcontainers-contrib/features/crystal-asdf": {
+                "version": "1.9.2"
+            },
+            "luckyframework": {
+                "version": "1.0.0"
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "lucky_cli",
+    "id": "lucky_cli",
+    "version": "1.0.0",
+    "description": "Installs the CLI for the Lucky Web Framework",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "1.0.0",
+            "description": "Lucky version"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/crystal-asdf"
+    ]
+}
